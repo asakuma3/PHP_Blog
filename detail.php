@@ -80,6 +80,6 @@ $result = $blog->getById($_GET['id']);    //Blog\Dbc\はnamespace
         <hr>
         <p>本文:<?PHP echo $result['content'] ?></p>
     </body>
-    <p><a href="/PHP_Basic_Course/index.php">戻る</a></p>
+    <p><a href="/PHP_Blog/index.php">戻る</a></p>
 
 </html>

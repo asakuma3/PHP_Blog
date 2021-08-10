@@ -47,7 +47,7 @@ function h($s)
 
 <body>
     <h2>ブログ一覧</h2>
-    <p><a href="/PHP_Basic_Course/form.html">新規作成</a></p>
+    <p><a href="/PHP_Blog/form.html">新規作成</a></p>
     <table>
         <tr>
             <th>タイトル</th>
@@ -61,9 +61,9 @@ function h($s)
                 <td><?php echo h($column['category']) ?></td>
                 <td><?php echo h($blog->setCategoryName($column['category'])) ?></td>
                 <td><?php echo h($column['post_at']) ?></td>
-                <td><a href="/PHP_Basic_Course/detail.php?id=<?php echo $column['id'] ?>">詳細</a></td>
-                <td><a href="/PHP_Basic_Course/update_form.php?id=<?php echo $column['id'] ?>">編集</a></td>
-                <td><a href="/PHP_Basic_Course/blog_delete.php?id=<?php echo $column['id'] ?>">削除</a></td>
+                <td><a href="/PHP_Blog/detail.php?id=<?php echo $column['id'] ?>">詳細</a></td>
+                <td><a href="/PHP_Blog/update_form.php?id=<?php echo $column['id'] ?>">編集</a></td>
+                <td><a href="/PHP_Blog/blog_delete.php?id=<?php echo $column['id'] ?>">削除</a></td>
             </tr>
         <?php endforeach; ?>
     </table>

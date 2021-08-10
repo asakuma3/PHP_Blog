@@ -6,4 +6,4 @@ $blog = new Blog();
 $result = $blog->delete($_GET['id']);
 ?>
 
-<p><a href="/PHP_Basic_Course/index.php">戻る</a></p>
+<p><a href="/PHP_Blog/index.php">戻る</a></p>

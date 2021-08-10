@@ -24,7 +24,7 @@ $publish_status = $result['publish_status'];
 
 <body>
     <h2>ブログ更新フォーム</h2>
-    <form action="/PHP_Basic_Course/blog_update.php" method="POST">
+    <form action="/PHP_Blog/blog_update.php" method="POST">
         <input type="hidden" name="id" value="<?php echo $result['id']; ?>" />
         <p>ブログタイトル</p>
         <input type="text" name="title" value="<?php echo $title ?>">
@@ -42,7 +42,7 @@ $publish_status = $result['publish_status'];
         <br>
         <input type="submit" value="送信">
     </form>
-    <p><a href="/PHP_Basic_Course/index.php">戻る</a></p>
+    <p><a href="/PHP_Blog/index.php">戻る</a></p>
 
 </body>
 

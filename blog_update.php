@@ -7,4 +7,4 @@ $blog = new Blog();
 $blog->blogValidate($blogs);
 $blog->blogUpdate($blogs);
 ?>
-<p><a href="/PHP_Basic_Course/index.php">戻る</a></p>
+<p><a href="/PHP_Blog/index.php">戻る</a></p>

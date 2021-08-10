@@ -10,4 +10,4 @@ $blog->blogValidate($blogs);
 $blog->blogCreate($blogs);
 // var_dump($blogs);
 ?>
-<p><a href="/PHP_Basic_Course/index.php">戻る</a></p>
+<p><a href="/PHP_Blog/index.php">戻る</a></p>
